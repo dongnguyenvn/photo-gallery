@@ -1,0 +1,50 @@
+.wrapper{
+  
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-block: 50px;
+    
+  
+    .file-upload{
+  
+      height:30px;
+      width:30px;
+      border-radius: 100px;
+      position:relative;
+      
+      display:flex;
+      justify-content:center;
+      align-items: center;  
+  
+      border:1px solid;
+      transition: all 1s;
+      
+  
+      input[type='file']{
+  
+        position:absolute;
+        top:0;
+        left:0;
+        opacity:0;
+        cursor:pointer;
+  
+      }
+  
+      &:hover{
+  
+        background-position: 0 -100%;
+        color:#2590EB;
+  
+      }
+  
+  
+    }
+  }
+
+.error{
+    width: 100%;
+    text-align: center;
+    color:red;
+}
